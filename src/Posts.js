@@ -3,18 +3,13 @@ import Facts from './facts';
 import Wave from '../src/wave.svg';
 
 
-
-
-
-
-
 const Posts = (props) => {
     const [post, setPost] = useState({title: 'yo', content: "contnt"});
 
     
     let id = props.match.params.post_id;
 
-    const fact = Facts.filter(fact => fact.id == id);
+    const fact = Facts.filter(fact => fact.id === id);
     console.log(fact[0]);
 
 
