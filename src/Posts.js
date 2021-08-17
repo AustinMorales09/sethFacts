@@ -9,7 +9,7 @@ const Posts = (props) => {
   let id = props.match.params.post_id;
 
   const fact = Facts.filter((fact) => fact.id === id);
-  console.log(fact[0]);
+  console.log(fact);
 
   useEffect(() => {
     setPost(fact[0]);
