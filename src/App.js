@@ -11,9 +11,10 @@ import Posts from './Posts';
 function App() {
   return (
     <BrowserRouter>
-    <Header />
+   
     <div className="App">
-    <Switch>
+    <Switch> 
+    <Header />
       <Route exact path='/' component={Home}/>
       <Route path='/:post_id' component={Posts}/>
     </Switch>

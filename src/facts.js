@@ -1,10 +1,10 @@
-import imageOne from '../src/mask.jpeg';
-import imageTwo from '../src/mask.jpeg';
-import imageThree from '../src/mask.jpeg';
+// import imageOne from '../src/mask.jpeg';
+// import imageTwo from '../src/mask.jpeg';
+// import imageThree from '../src/mask.jpeg';
 
 
 
-const facts = [
+const Facts = [
     {
         id: 1,
         // img: {art},
@@ -25,4 +25,4 @@ const facts = [
     }
 ]
 
-export default facts;
+export default Facts;
